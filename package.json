@@ -1,0 +1,17 @@
+{
+  "name": "teamcity-failure-sample",
+  "version": "1.0.0",
+  "description": "A sample project to test TeamCity's build and test failure detection.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "echo 'This build is intentionally designed to fail.' && exit 1",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
