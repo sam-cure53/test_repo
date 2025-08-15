@@ -1,4 +1,4 @@
-function alwaysFails() {
+teafunction alwaysFails() {
     throw new Error("This function always fails.");
 }
 
